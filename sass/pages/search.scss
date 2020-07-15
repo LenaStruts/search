@@ -1,0 +1,16 @@
+@import "../components/buttons";
+@import "../layouts/nav";
+@import "../layouts/bar";
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: $arial-font;
+    font-size: 13px;
+}
+
+#logo {
+    padding-top: 152px;
+    display: block;
+    margin: 0 auto;
+}
