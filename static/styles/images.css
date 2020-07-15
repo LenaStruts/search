@@ -1,0 +1,129 @@
+.buttons {
+  margin-top: 32px;
+}
+
+.buttons button {
+  background-image: #f5f5f5;
+  background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+  background-image: linear-gradient(to bottom, #f5f5f5, #f1f1f1);
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  color: #5F6368;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.buttons button:hover {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  background-image: #f8f8f8;
+  background-image: -webkit-linear-gradient(top, #f8f8f8, #f1f1f1);
+  background-image: linear-gradient(to bottom, #f8f8f8, #f1f1f1);
+  background-color: #f8f8f8;
+  border: 1px solid #c6c6c6;
+  color: #222;
+}
+
+.buttons button:active,
+.buttons button:focus {
+  outline-style: none;
+  border: 1px solid #4285f4;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+header {
+  padding-top: 30px;
+}
+
+header nav {
+  text-align: right;
+  padding-right: 30px;
+}
+
+header nav a {
+  padding-right: 15px;
+}
+
+.search {
+  text-align: center;
+  margin-top: 28px;
+}
+
+.search-bar {
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  height: 44px;
+  margin: 0 auto;
+  width: 582px;
+  display: flex;
+}
+
+.search-bar:hover {
+  outline: none;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+.search-bar .search-icon {
+  position: relative;
+  flex: 1;
+  margin: 12px 13px 12px 11px;
+}
+
+.search-bar input {
+  position: relative;
+  flex: 20;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  margin-top: -2px;
+}
+
+.search-bar input:focus {
+  outline: none;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+#logo {
+  padding-top: 152px;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 272px;
+}
+
+span {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  right: 0;
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=images.css.map */

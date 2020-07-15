@@ -1,0 +1,137 @@
+.button {
+  grid-column: 2/3;
+  text-align: right;
+}
+
+.button button {
+  box-shadow: none;
+  background-color: #4d90fe;
+  background-image: #4d90fe;
+  background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+  background-image: linear-gradient(to bottom, #4d90fe, #4787ed);
+  border-radius: 2px;
+  cursor: default;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 100%;
+  height: 30px;
+  min-width: 120px;
+  border: 1px solid #3079ed;
+  color: #fff;
+}
+
+.button button:active,
+.button button:focus {
+  outline-style: none;
+}
+
+form {
+  display: grid;
+  grid-template-columns: 14% 45% 32%;
+  row-gap: 16px;
+  padding: 20px 40px;
+}
+
+.find {
+  grid-column: 1/2;
+  font-size: 16px;
+}
+
+.do {
+  grid-column: 3/4;
+  font-size: 13px;
+  height: 25px;
+  font-weight: 700;
+  color: #777;
+}
+
+label {
+  grid-column: 1/2;
+  min-width: 167px;
+  height: 25px;
+  color: #222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+  padding-top: 5px;
+}
+
+input {
+  grid-column: 2/3;
+  border-radius: 1px;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+}
+
+input:focus {
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.3);
+  border: 1px solid #4d90fe;
+  outline: none;
+}
+
+.comment {
+  grid-column: 3/4;
+  font-size: 11px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+.example {
+  color: #666;
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+}
+
+@media screen and (max-width: 1058px) {
+  form {
+    grid-template-columns: 30% 65%;
+  }
+
+  form .comment,
+.do {
+    display: none;
+  }
+}
+header {
+  position: relative;
+  height: 60px;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  height: 33px;
+  width: 92px;
+  padding: 15px;
+}
+
+.bar {
+  margin: 25px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.advanced {
+  margin: 0 35px;
+  color: #d93025;
+  font-size: 20px;
+  padding-left: 0;
+}
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=advanced.css.map */
