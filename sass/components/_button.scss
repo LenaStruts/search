@@ -1,0 +1,27 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+.button {
+    grid-column: 2 / 3;
+    text-align: right;
+}
+
+.button button {
+    box-shadow: none;
+    background-color: $blue-primary;
+    @include gradient($blue-primary, $blue-secondary, vertical);
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+    height: 30px;
+    min-width: 120px;
+    @include border($blue-border);
+    color: $white;
+}
+
+.button button:active,
+.button button:focus {
+    outline-style: none;
+}

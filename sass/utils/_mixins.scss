@@ -1,0 +1,19 @@
+@mixin gradient($start-color, $end-color, $orientation) {
+    background-image: $start-color;
+    @if $orientation=='vertical' {
+        background-image: -webkit-linear-gradient(top, $start-color, $end-color);
+        background-image: linear-gradient(to bottom, $start-color, $end-color);
+    }
+    @else if $orientation=='horizontal' {
+        background-image: -webkit-linear-gradient(left, $start-color, $end-color);
+        background-image: linear-gradient(to right, $start-color, $end-color);
+    }
+    @else {
+        background-image: -webkit-radial-gradient(center, ellipse cover, $start-color, $end-color);
+        background-image: radial-gradient(ellipse at center, $start-color, $end-color);
+    }
+}
+
+@mixin border($color) {
+    border: 1px solid $color;
+}

@@ -1,0 +1,31 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+header {
+    position: relative;
+    height: 60px;
+    width: 100%;
+    background-color: $white1;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 33px;
+    width: 92px;
+    padding: 15px;
+}
+
+.bar {
+    margin: 25px 0;
+    padding-bottom: 20px;
+    border-bottom: 1px solid $border-bottom;
+}
+
+.advanced {
+    margin: 0 35px;
+    color: $red-bar;
+    font-size: 20px;
+    padding-left: 0;
+}

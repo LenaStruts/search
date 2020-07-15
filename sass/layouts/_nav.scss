@@ -1,0 +1,23 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    opacity: .85;
+}
+
+header {
+    padding-top: 30px;
+}
+
+header nav {
+    text-align: right;
+    padding-right: 30px;
+}
+
+header nav a {
+    padding-right: 15px;
+}
