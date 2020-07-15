@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" type="text/css" href="./static/styles/advanced.css">
+    <link rel="icon" type="image/png" href="./static/images/favicon.ico">
+</head>
+
+<body>
+    <header>
+        <a href="search.html"><img src="./static/images/logo.svg" alt="google logo" /></a>
+    </header>
+    <div class="bar">
+        <label class="advanced">Advanced Search</label>
+    </div>
+
+    <form class="search-all" action="https://google.com/search" target="_blank" autocomplete="off">
+        <span class="find">Find pages with...</span>
+        <div class="do">To do this in the search box.</div>
+        <label for="all">all these words:</label>
+        <input type="text" name="as_q" id="all" />
+        <div class="comment">
+            Type the important words:
+            <span class="example">tri-colour rat terrier</span>
+        </div>
+        <label for="exact">this exact word or phrase:</label>
+        <input type="text" name="as_epq" id="exact" />
+        <div class="comment">
+            Put exact words in quotes:
+            <span class="example">"rat terrier"</span>
+        </div>
+        <label for="any">any of these words:</label>
+        <input type="text" name="as_oq" id="any" />
+        <div class="comment">
+            Type OR between all the words you want:
+            <span class="example">miniature OR standard</span>
+        </div>
+        <label for="none">none of these words:</label>
+        <input type="text" name="as_eq" id="none" />
+        <div class="comment">
+            Put a minus sign just before words that you don't want:
+            <span class="example">-rodent, -"Jack Russell"</span>
+        </div>
+        <div class="button">
+            <button type="submit">Advanced Search</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
