@@ -6,4 +6,5 @@ The copy of Google Search page contains a logo, search bar and navigation. The a
 The copy of Google Images page is almost the same as the one for google search, but instead it gets the result of Google Image Search. There is also a small span tag that makes the logo look like the one from Google Image page.
 
 The copy of Google Advanced Search page has 4 input fields with labels and comments to help organizing your search. To look for all, exact, any or none words or fraise I used as_q, as_epq, as_oq or as-eq parameters respectively. In order to style the labels I used CSS grid. 
+
 Another thing, I can’t but mention is the 7-1 system I used to organize SASS. Pieces of reusable code were organized in partials and imported on the particular pages’ stylesheets. 
