@@ -1,12 +1,21 @@
 @import "../utils/variables";
 @import "../utils/mixins";
+@import "../utils/variables";
+@import "../utils/mixins";
 a {
     text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
 }
 
-a:hover {
+a:hover,
+a:focus {
     text-decoration: underline;
     opacity: .85;
+}
+
+a:visited {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
 }
 
 header {

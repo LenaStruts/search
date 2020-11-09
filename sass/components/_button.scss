@@ -21,7 +21,21 @@
     color: $white;
 }
 
-.button button:active,
+.button button:hover {
+    background-color: $blue-state;
+    @include gradient($blue-primary, $blue-state, vertical);
+    @include border($border-state);
+    border-image: initial;
+}
+
+.button button:active {
+    box-shadow: inset 0 1px 2px $box-shadow;
+    background: $blue-state;
+    @include border($border-state);
+}
+
 .button button:focus {
-    outline-style: none;
+    box-shadow: inset 0 0 0 1px $white;
+    @include border($black-focus);
+    outline: $black-focus 0;
 }
