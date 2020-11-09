@@ -1,9 +1,47 @@
-# search
-In this project I built a copy of Google website using HTML, CSS and SASS. It consists of 3 pages: Google Search, Google Images and Google Advanced Search. To navigate between the pages there is a navigation in the top right corner. On the Google Advanced page to navigate back to Google Search it’s enough to press the Google logo at the top left corner. 
+# Search
+> In this project I designed a front-end for Google Search, Google Image Search, and Google Advanced Search.
+## Table of contents
+* [General info](#general-info)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-The copy of Google Search page contains a logo, search bar and navigation. The are also two buttons under a search bar, one is for simple google search and the other for the first search result – I’m feeling lucky. Since Google policy does not allow access to the first search result through query parameters, I also added a different version of Google Search page with a JavaScript function, which redirects to DuckDuckGo’s first search result. 
+## General info
+The purpose of this project is to create front end for Google Search, as by exploring Google’s interface to identify what GET parameters it expects and adding the necessary HTML and CSS to the website.
+## Screenshots
+![Screenshot1](https://user-images.githubusercontent.com/61382735/98533035-bdc79a80-2282-11eb-91e9-faf8c3b62e49.png)
+![Screenshot2](https://user-images.githubusercontent.com/61382735/98533148-e354a400-2282-11eb-9163-399a03561543.png)
 
-The copy of Google Images page is almost the same as the one for google search, but instead it gets the result of Google Image Search. There is also a small span tag that makes the logo look like the one from Google Image page.
-The copy of Google Advanced Search page has 4 input fields with labels and comments to help organizing your search. To look for all, exact, any or none words or fraise I used as_q, as_epq, as_oq or as-eq parameters respectively. In order to style the labels I used CSS grid. 
+## Technologies
+* HTML5
+* CSS
+* SASS
+* JavaScript ES6
 
-Another thing, I can’t but mention is the 7-1 system I used to organize SASS. Pieces of reusable code were organized in partials and imported on the particular pages’ stylesheets. 
+
+## Setup
+install Node.js
+npm init
+npm install -g sass-watch
+sass --watch sass/pages:static/styles
+
+## Features
+* Google Search
+* Search Images
+* Advanced Search
+
+To-do list:
+* improve functionality 
+
+## Status
+Project is paused, because it fullfills the requirements of the course, but some changes to be done to improve functionality.
+
+## Inspiration
+This project is part of the Harvard course I am taking, in particular CS50’s Web Programming with Python and JavaScript, project 0 - search
+
+## Contact
+Created by [Lena Struts](https://www.linkedin.com/in/lena-yeliena-struts-5aa96292/) - feel free to contact me!
