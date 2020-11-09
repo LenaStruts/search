@@ -1,0 +1,24 @@
+{
+  "name": "search",
+  "version": "1.0.0",
+  "description": "> In this project I designed a front-end for Google Search, Google Image Search, and Google Advanced Search.\r ## Table of contents\r * [General info](#general-info)\r * [Screenshots](#screenshots)\r * [Technologies](#technologies)\r * [Setup](#setup)\r * [Features](#features)\r * [Status](#status)\r * [Inspiration](#inspiration)\r * [Contact](#contact)",
+  "main": "index.html",
+  "dependencies": {
+    "compile-sass": "^1.1.1",
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LenaStruts/search.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LenaStruts/search/issues"
+  },
+  "homepage": "https://github.com/LenaStruts/search#readme"
+}
